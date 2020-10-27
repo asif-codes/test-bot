@@ -69,6 +69,8 @@ async def join(ctx):
 
     await ctx.send(f'Joined {channel}')
 
+# leaves the voice channel
+
 
 @bot.command(pass_context=True, aliases=['l', 'lea'])
 async def leave(ctx):
