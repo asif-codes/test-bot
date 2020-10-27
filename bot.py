@@ -51,6 +51,8 @@ async def help(ctx):
 
     await author.send(embed=help_embed)
 
+# joins the voice channel
+
 
 @bot.command(pass_context=True, aliases=['j', 'joi'])
 async def join(ctx):
