@@ -20,6 +20,8 @@ async def on_ready():
     await bot.change_presence(status=discord.Status.online, activity=discord.Game('type .help to get started'))
     print(f'Logged in as: {bot.user.name}\n')
 
+# Bot commands
+
 
 @bot.command(pass_context=True)
 async def help(ctx):
