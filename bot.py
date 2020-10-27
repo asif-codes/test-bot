@@ -85,6 +85,8 @@ async def leave(ctx):
         print('Bot was told to leave voice channel, but was not in one')
         await ctx.send("Don't think I am in a voice channel")
 
+# Added play command
+
 
 @bot.command(pass_context=True, aliases=['p', 'pla'])
 async def play(ctx, *url: str):
